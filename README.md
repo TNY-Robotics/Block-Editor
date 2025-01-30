@@ -66,6 +66,6 @@ npm run build:electron
 ```
 
 > [!NOTE] 
-> Building on windows requires the terminal session to be run as administrator,
+> Building on windows requires the terminal session to be run as administrator for the first time,
 > as described in [this issue](https://github.com/electron-userland/electron-builder/issues/8149).
 
