@@ -9,4 +9,5 @@ export default {
     delete: 'Delete',
     create: 'Create',
     save: 'Save',
+    connect: 'Connect',
 }

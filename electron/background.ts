@@ -18,18 +18,17 @@ function createWindow() {
         height: 720,
         minWidth: 960,
         minHeight: 640,
-        backgroundColor: '#000',
+        backgroundColor: '#1d293d',
         webPreferences: {
             devTools: true,
             nodeIntegration: true,
             contextIsolation: false,
             preload: path.join(__dirname, 'preload.js')
         },
-
         titleBarStyle: 'hiddenInset',
         frame: true,
         titleBarOverlay: platform === 'darwin' && { height: headerSize },
-        title: 'Electron / Nuxt template',
+        title: 'TNY - Block Editor',
         autoHideMenuBar: true,
     });
 

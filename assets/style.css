@@ -22,3 +22,11 @@ h2 {
 p {
     @apply text-lg font-normal;
 }
+
+.blocklyToolboxDiv {
+    z-index: 20 !important;
+}
+
+.card {
+    @apply space-y-4 bg-slate-100 dark:bg-slate-700 rounded-lg border-2 border-slate-400 dark:border-slate-600 shadow-lg
+}
