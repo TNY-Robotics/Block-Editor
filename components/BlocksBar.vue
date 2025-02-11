@@ -5,7 +5,7 @@
                 <UIcon name="i-heroicons-code-bracket" class="w-6 h-6" />
             </div>
             <div class="flex w-fit h-full items-center justify-center my-auto">
-                <p class="font-main">TNY - EDITOR</p>
+                <h1 class="text-xl">TNY - EDITOR</h1>
             </div>
             <div class="w-12">
                 <UButton variant="ghost" color="gray" size="lg" icon="i-heroicons-bars-3" @click="toggleOptions" />

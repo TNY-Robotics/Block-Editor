@@ -1,17 +1,16 @@
 export default defineAppConfig({
     ui: {
-        primary: 'yellow',
+        primary: 'orange',
         gray: 'slate',
         input: {
             default: {
                 color: 'gray',
-                size: 'md',
+                size: 'md'
             }
         },
         select: {
             default: {
                 color: 'gray',
-                size: 'md',
             }
         },
         modal: {
@@ -21,8 +20,9 @@ export default defineAppConfig({
             }
         },
         button: {
+            rounded: 'rounded-lg',
             default: {
-                size: 'md',
+                size: 'md'
             }
         }
     }
